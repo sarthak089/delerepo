@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+    display: flex;
+    border: 1px solid bold;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.navitem{
+    
+    height: 80px;
+    
+}
+.grow{
+    flex-grow: 1;
+    margin: 0 5px 0 5px;
+}
+.leftcontainer{
+    display: flex;
+}
+.leftfitem{
+    background-color: white;
+    margin: 0 15px 0 15px;
+    padding-top: 25px;
+    background-color: whitesmoke;
+}
+.rightcontainer{
+    display: flex;
+}
+.rightitem{
+    background-color: white;
+    margin: 0 15px 0 15px;
+    padding-top: 25px;
+    background-color: whitesmoke;
+}
+.radius {
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+.navitem :hover{
+    color:  grey;
+    cursor: pointer;
+}
+.dashboard{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 20px;
+}
+.dashboarditem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.fimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.fdashitem{
+    margin-bottom: 10px;
+    
+}
+.fdash :hover{
+    color: rgb(80, 136, 80);
+    cursor: pointer;
+}
+.ficon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.maincontainer{
+    display: flex;
+}
